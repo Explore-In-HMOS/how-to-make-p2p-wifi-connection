@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.wifi.manager.p2pDemo",
+    "bundleName": "com.hmosdemos.wearable.how_to_make_p2p_wifi_connection",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

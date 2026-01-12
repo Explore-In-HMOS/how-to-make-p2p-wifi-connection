@@ -72,6 +72,17 @@ User Interaction -> Mode Toggle -> Use Mode Client -> Connect -> Display Status
 └── entry/src/main/resources
 ```
 
+# Technology
+
+### Stack
+
+- **Language**: ArkTS
+- **Framework**: HarmonyOS NEXT
+- **Tools**: DevEco Studio 5.1.0.849
+- **Libraries**:
+    - `@kit.AbilityKit`
+    - `@kit.ArkUI`
+    - `@kit.ConnectivityKit`
 
 # Constraints and Restrictions
 

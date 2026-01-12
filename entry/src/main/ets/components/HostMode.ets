@@ -6,7 +6,6 @@ struct HostMode {
   @State statusMessage: string = 'Ready';
   @Prop config: wifiManager.WifiP2PConfig;
   @State groupCreated: boolean = false;
-  @State wifiReady: boolean = false;
 
   aboutToAppear(): void {
     wifiManager.on('p2pPersistentGroupChange', () => {
@@ -44,7 +43,7 @@ struct HostMode {
         wifiManager.createGroup(this.config);
         this.statusMessage = 'Creating group...';
       } catch (e) {
-        this.statusMessage = 'Failed to create group: ' + JSON.stringify(e);
+        this.statusMessage = `Failed to create group: ${JSON.stringify(e)}`;
       }
     });
   }

@@ -44,11 +44,11 @@ struct ClientMode {
             .fontColor($r('app.color.text_white'))
             .decoration({ type: TextDecorationType.Underline, color: $r('app.color.text_white') })
 
-          ForEach(this.deviceList, (device: string, index: number) => {
+          ForEach(this.deviceList, (device: string) => {
             Text(device)
               .fontSize($r('app.float.title_font_size'))
               .fontColor($r('app.color.success'))
-          }, (device: string, index?: number) => `${device}_${index}`)
+          }, (device: string) => `${device}`)
         }
       }
     }
