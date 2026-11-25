@@ -24,7 +24,7 @@ A simple application for managing Wi-Fi Direct (P2P) connections. This app allow
 ## Stack
 
 - **Language**: ArkTS
-- **Framework**: HarmonyOS NEXT
+- **Framework**: HarmonyOS
 - **Tools**: DevEco Studio 5.1.0.849
 - **Libraries**:
 - **Libraries**:
@@ -77,7 +77,7 @@ User Interaction -> Mode Toggle -> Use Mode Client -> Connect -> Display Status
 ### Stack
 
 - **Language**: ArkTS
-- **Framework**: HarmonyOS NEXT
+- **Framework**: HarmonyOS
 - **Tools**: DevEco Studio 5.1.0.849
 - **Libraries**:
     - `@kit.AbilityKit`
